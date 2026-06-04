@@ -1,0 +1,6 @@
+{
+  "name": "Dynamic BI Dashboard Platform",
+  "description": "A modern web-based BI Dashboard Platform that connects to Google Cloud databases, performs schema discovery, and lets users build, manage, and run dynamic BI dashboards with charts, KPIs, filters, drill-downs, and data exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

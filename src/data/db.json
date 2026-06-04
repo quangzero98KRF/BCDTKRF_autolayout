@@ -1,0 +1,342 @@
+{
+  "connections": [
+    {
+      "connectionId": "conn-1780411541672",
+      "connectionName": "Cloud Connection (KRF)",
+      "description": "Kết nối trực tiếp tới cơ sở dữ liệu krf.",
+      "databaseType": "PostgreSQL",
+      "host": "34.143.138.57",
+      "port": 5432,
+      "databaseName": "krf",
+      "username": "postgres",
+      "password": "123456",
+      "isActive": true,
+      "createdDate": "2026-06-02T14:45:41.672Z",
+      "updatedDate": "2026-06-02T14:48:41.386Z"
+    }
+  ],
+  "tables": [
+    {
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "connectionId": "conn-1780411541672",
+      "tableName": "fi_final_bcdt",
+      "schemaName": "public",
+      "description": "Bảng dữ liệu báo cáo doanh thu tài chính (fi_final_bcdt) của hệ thống KRF bao gồm các chỉ số doanh thu gộp, giá vốn và lợi nhuận."
+    }
+  ],
+  "columns": [
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-1",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "id",
+      "dataType": "INTEGER",
+      "isNullable": false,
+      "isPrimaryKey": true,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-2",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "ngay",
+      "dataType": "DATE",
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-3",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "ma_don_hang",
+      "dataType": "VARCHAR",
+      "length": 50,
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-4",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "khach_hang",
+      "dataType": "VARCHAR",
+      "length": 200,
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-5",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "loai_khach_hang",
+      "dataType": "VARCHAR",
+      "length": 100,
+      "isNullable": true,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-6",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "san_pham",
+      "dataType": "VARCHAR",
+      "length": 200,
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-7",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "nhom_san_pham",
+      "dataType": "VARCHAR",
+      "length": 100,
+      "isNullable": true,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-8",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "so_luong",
+      "dataType": "INTEGER",
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-9",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "don_gia",
+      "dataType": "DECIMAL",
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-10",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "doanh_thu",
+      "dataType": "DECIMAL",
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-11",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "giam_gia",
+      "dataType": "DECIMAL",
+      "isNullable": true,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-12",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "doanh_thu_thuan",
+      "dataType": "DECIMAL",
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-13",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "gia_von",
+      "dataType": "DECIMAL",
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-14",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "loi_nhuan",
+      "dataType": "DECIMAL",
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-15",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "khu_vuc",
+      "dataType": "VARCHAR",
+      "length": 50,
+      "isNullable": true,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-16",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "nhan_vien",
+      "dataType": "VARCHAR",
+      "length": 100,
+      "isNullable": true,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    },
+    {
+      "columnId": "col-tbl-conn-1780411541672-fi_final_bcdt-17",
+      "tableId": "tbl-conn-1780411541672-fi_final_bcdt",
+      "columnName": "trang_thai",
+      "dataType": "VARCHAR",
+      "length": 50,
+      "isNullable": false,
+      "isPrimaryKey": false,
+      "isForeignKey": false
+    }
+  ],
+  "relationships": [],
+  "dashboards": [
+    {
+      "dashboardId": "dash-1",
+      "dashboardName": "Báo cáo Doanh thu (KRF)",
+      "description": "Báo cáo tổng quan về doanh thu bán hàng, lợi nhuận gộp, giá vốn theo các sản phẩm, vùng miền và nhóm khách hàng từ bảng fi_final_bcdt.",
+      "connectionId": "conn-1780411541672",
+      "createdBy": "quangzero98@gmail.com",
+      "createdDate": "2026-06-02T12:00:00.000Z",
+      "updatedDate": "2026-06-02T12:00:00.000Z",
+      "status": "Published"
+    }
+  ],
+  "widgets": [
+    {
+      "widgetId": "w-1",
+      "dashboardId": "dash-1",
+      "widgetType": "KPI",
+      "positionX": 0,
+      "positionY": 0,
+      "width": 4,
+      "height": 2,
+      "config": {
+        "title": "Doanh Thu Thuần (VND)",
+        "datasetTable": "fi_final_bcdt",
+        "measureColumn": "doanh_thu_thuan",
+        "aggregation": "SUM"
+      }
+    },
+    {
+      "widgetId": "w-2",
+      "dashboardId": "dash-1",
+      "widgetType": "KPI",
+      "positionX": 4,
+      "positionY": 0,
+      "width": 4,
+      "height": 2,
+      "config": {
+        "title": "Lợi Nhuận Gộp (VND)",
+        "datasetTable": "fi_final_bcdt",
+        "measureColumn": "loi_nhuan",
+        "aggregation": "SUM"
+      }
+    },
+    {
+      "widgetId": "w-3",
+      "dashboardId": "dash-1",
+      "widgetType": "KPI",
+      "positionX": 8,
+      "positionY": 0,
+      "width": 4,
+      "height": 2,
+      "config": {
+        "title": "Tổng Đơn Hàng (Đơn)",
+        "datasetTable": "fi_final_bcdt",
+        "measureColumn": "ma_don_hang",
+        "aggregation": "COUNT"
+      }
+    },
+    {
+      "widgetId": "w-4",
+      "dashboardId": "dash-1",
+      "widgetType": "Chart_Bar",
+      "positionX": 0,
+      "positionY": 2,
+      "width": 6,
+      "height": 4,
+      "config": {
+        "title": "Cơ Cấu Doanh Thu Theo Nhóm Sản Phẩm",
+        "datasetTable": "fi_final_bcdt",
+        "dimensionColumn": "nhom_san_pham",
+        "measureColumn": "doanh_thu_thuan",
+        "aggregation": "SUM",
+        "chartColor": "#3b82f6",
+        "sortOrder": "DESC"
+      }
+    },
+    {
+      "widgetId": "w-5",
+      "dashboardId": "dash-1",
+      "widgetType": "Chart_Line",
+      "positionX": 6,
+      "positionY": 2,
+      "width": 6,
+      "height": 4,
+      "config": {
+        "title": "Biến Động Doanh Thu Theo Thời Gian (Ngày)",
+        "datasetTable": "fi_final_bcdt",
+        "dimensionColumn": "ngay",
+        "measureColumn": "doanh_thu_thuan",
+        "aggregation": "SUM",
+        "chartColor": "#10b981",
+        "sortOrder": "ASC"
+      }
+    },
+    {
+      "widgetId": "w-6",
+      "dashboardId": "dash-1",
+      "widgetType": "Filter",
+      "positionX": 0,
+      "positionY": 6,
+      "width": 4,
+      "height": 1.5,
+      "config": {
+        "title": "Lọc Theo Khu Vực",
+        "datasetTable": "fi_final_bcdt",
+        "filterType": "Dropdown",
+        "filterColumn": "khu_vuc"
+      }
+    },
+    {
+      "widgetId": "w-7",
+      "dashboardId": "dash-1",
+      "widgetType": "Filter",
+      "positionX": 4,
+      "positionY": 6,
+      "width": 4,
+      "height": 1.5,
+      "config": {
+        "title": "Lọc Theo Trạng Thái",
+        "datasetTable": "fi_final_bcdt",
+        "filterType": "MultiSelect",
+        "filterColumn": "trang_thai"
+      }
+    },
+    {
+      "widgetId": "w-8",
+      "dashboardId": "dash-1",
+      "widgetType": "Table",
+      "positionX": 0,
+      "positionY": 7.5,
+      "width": 12,
+      "height": 5,
+      "config": {
+        "title": "Nhật Ký Giao Dịch Doanh Thu Chi Tiết (KRF Log)",
+        "datasetTable": "fi_final_bcdt",
+        "tableColumns": [
+          "ma_don_hang",
+          "ngay",
+          "khach_hang",
+          "san_pham",
+          "so_luong",
+          "doanh_thu_thuan",
+          "trang_thai"
+        ],
+        "pageSize": 10,
+        "sortBy": "ngay",
+        "sortDirection": "DESC"
+      }
+    }
+  ],
+  "versions": []
+}
